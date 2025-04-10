@@ -1,10 +1,12 @@
 import DashboardLayout from "@/components/dashboard-layout"
-import Dashboard from "@/components/dashboard"
 
-export default function Home() {
+export default function LogsPage() {
   return (
     <DashboardLayout>
-      <Dashboard />
+      <div className="p-6">
+        <h1 className="text-2xl font-bold mb-6">Logs</h1>
+        <p className="text-gray-500">View system logs and agent activities.</p>
+      </div>
     </DashboardLayout>
   )
 }
